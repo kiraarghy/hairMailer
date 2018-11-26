@@ -20,7 +20,7 @@ var optionalSubjects = [
 ];
 
 function getRandomInt(max) {
-  return Math.floor(Math.random() * Math.floor(max));
+  return Math.round(Math.random() * Math.floor(max));
 }
 
 var seedArray = optionalSubjects[getRandomInt(optionalSubjects.length)];
