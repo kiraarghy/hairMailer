@@ -1,0 +1,15 @@
+{
+  "name": "hairmailer",
+  "version": "1.0.0",
+  "description": "tool to stop me from cutting my hair",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.362.0",
+    "nodemailer": "^4.7.0"
+  }
+}
